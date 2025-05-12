@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: python-app
   labels:
-    app: nginx
+    app: python-app
 spec:
   replicas: 1
   selector:
